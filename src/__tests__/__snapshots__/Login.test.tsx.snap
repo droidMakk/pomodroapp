@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Input Fields 1`] = `
+<div
+  className="login-content-holder content-section implementation"
+>
+  <div
+    className="content-section implementation"
+  >
+    <div
+      className="p-card p-component ui-card-shadow"
+      style={
+        Object {
+          "width": "360px",
+        }
+      }
+    >
+      <div
+        className="p-card-header"
+      >
+        header
+      </div>
+      <div
+        className="p-card-body"
+      >
+        <div
+          className="p-card-title"
+        >
+          Login
+        </div>
+        <div
+          className="p-card-subtitle"
+        >
+          Enter your credentials to get started!
+        </div>
+        <div
+          className="p-card-content"
+        >
+           
+          <div>
+            <span
+              className="p-float-label"
+            >
+              <input
+                className="p-inputtext p-component"
+                id="float-input"
+                label="Username"
+                onChange={[Function]}
+                onInput={[Function]}
+                onKeyPress={[Function]}
+              />
+              <label
+                htmlFor="float-input"
+              >
+                Username
+              </label>
+            </span>
+            <span
+              className="p-float-label"
+            >
+              <input
+                className="p-inputtext p-component"
+                id="float-input"
+                label="Password"
+                onChange={[Function]}
+                onInput={[Function]}
+                onKeyPress={[Function]}
+                type="password"
+              />
+              <label
+                htmlFor="float-input"
+              >
+                Password
+              </label>
+            </span>
+          </div>
+           
+        </div>
+        <div
+          className="p-card-footer"
+        >
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

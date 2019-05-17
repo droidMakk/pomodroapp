@@ -21,11 +21,16 @@
     "@types/jest": "24.0.11",
     "@types/node": "11.13.4",
     "@types/react": "16.8.13",
-    "@types/react-dom": "16.8.4"
+    "@types/react-dom": "16.8.4",
+    "@types/react-test-renderer": "^16.8.1",
+    "react-test-renderer": "^16.8.6"
   },
   "scripts": {
+    "postinstall": "npm start",
     "start": "react-scripts start",
+    "runapp": "cd C:\\Program Files (x86)\\Google\\Chrome\\Application\\ && chrome --user-dat-dir=\"C:\\Users\\Droidmakk.MAKKSWIN\\pwa_temp\"  --unsafety-treat-insecure-origin-as-secure=http://localhost:3000",
     "build": "react-scripts build",
+    "jest": "jest --watch src/__tests__",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

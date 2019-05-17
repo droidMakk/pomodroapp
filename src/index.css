@@ -6,9 +6,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: fill-available;
+  width: fill-available;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  height: fill-available;
+  width: fill-available;
+}
+
+.login-content-holder {
+  background-color: #007eff;
+  height: fill-available;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.login-content-holder > div {
+  margin: auto;
 }
